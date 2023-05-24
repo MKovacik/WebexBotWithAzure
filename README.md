@@ -18,8 +18,8 @@ This project enables the creation of a Webex bot that utilizes a ChatGPT instanc
 ### Setting Up a GPT Instance in Azure
 
 1. Follow the instructions in this [Azure ChatGPT Quickstart Guide](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=rest-api&tabs=command-line) to create a new ChatGPT instance.
-2. Update the `openai.api_base` in `app.py` with the Endpoint.
-3. Add either Key 1 or Key 2 to `openai.api_key` in `app.py`.
+2. Update the `openai.api_base` in `gpt.py` with the Endpoint.
+3. Add either Key 1 or Key 2 to `openai.api_key` in `gpt.py`.
 4. It's recommended to store these keys as environment variables for security purposes.
 
 ### Creating an Azure Web App
